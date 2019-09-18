@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "957535276437",
+    "firebase_url": "https://valetticketapp.firebaseio.com",
+    "project_id": "valetticketapp",
+    "storage_bucket": "valetticketapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957535276437:android:6ce1df782be2c41a",
+        "android_client_info": {
+          "package_name": "sampleapp.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957535276437-l6lu8r24le4nfikc7m17frheugvm4k81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sampleapp.com",
+            "certificate_hash": "d528eef2f4708cfca977cacfc734adc92eead0e0"
+          }
+        },
+        {
+          "client_id": "957535276437-jqsq1obmrguh71q6uimcj6203adadjcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5xVNw5JpJK2XzMYhO0C9O8U1TiMy7boU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957535276437-jqsq1obmrguh71q6uimcj6203adadjcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

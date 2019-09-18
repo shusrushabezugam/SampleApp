@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustDashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/custwelcome"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="Customer Dashboard"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <ImageView
+            android:id="@+id/decode"
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="628dp" />
+
+        <ImageButton
+            android:id="@+id/pay"
+            android:layout_width="106dp"
+            android:layout_height="109dp"
+            android:background="@drawable/pay"
+            android:baselineAlignBottom="false"
+            android:layout_marginLeft="150dp"
+            android:tooltipText="Pay"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="94dp" />
+
+        <Button
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/zxing_custom_viewfinder_laser"
+            android:text="generator" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
